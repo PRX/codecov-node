@@ -1,5 +1,5 @@
 // see: http://man7.org/linux/man-pages/man2/accept.2.html#ERRORS
-var offlineErrorCodes = [
+const offlineErrorCodes = [
   'EAI_AGAIN',
   'ENETDOWN',
   'EPROTO',
@@ -8,7 +8,7 @@ var offlineErrorCodes = [
   'ENONET',
   'EHOSTUNREACH',
   'EOPNOTSUPP',
-  'ENETUNREACH'
+  'ENETUNREACH',
 ]
 
-module.exports = offlineErrorCodes;
+export default offlineErrorCodes
